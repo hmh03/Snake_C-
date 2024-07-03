@@ -1,0 +1,14 @@
+﻿<Application x:Class="DoAnSnake.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DoAnSnake"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BackgroudColors">#211e2b</SolidColorBrush>
+        <SolidColorBrush x:Key="GridBackgroudColor">#312c44</SolidColorBrush>
+        <SolidColorBrush x:Key="GridlineColors">#4f4867</SolidColorBrush>
+        <SolidColorBrush x:Key="TextColors">#ebebeb</SolidColorBrush>
+        <SolidColorBrush x:Key="overlayColor">#7f000000</SolidColorBrush>
+        <FontFamily x:Key="mainFont">Asset/#Droid Sans Mono</FontFamily>
+    </Application.Resources>
+</Application>
